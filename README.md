@@ -1,1 +1,1 @@
-# kodilla_task_7_2
+# kodilla_project_7_2
