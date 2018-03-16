@@ -1,5 +1,38 @@
-/* General */
+$font-stack: 'Open Sans', sans-serif;
+$regular-font-size: 1.3rem;
+$small-font-size: $regular-font-size * 0.75;
+$mid-font-size: $regular-font-size / 0.75;
+$large-font-size: $mid-font-size / 0.75;
+
+@mixin margin-top($mt) {
+  margin-top: $mt;
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-stack;
   text-align: center;
+}
+
+.song-title {
+  font-weight: 700;
+  font-size: $large-font-size;
+  @include margin-top(40px);
+}
+
+.song-author {
+  font-weight: 600;
+  font-size: $mid-font-size;
+  @include margin-top(20px);
+  margin-bottom: 40px;
+}
+
+section {
+  font-size: $small-font-size;
+  @include margin-top(20px);
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 20px;
+  }
 }

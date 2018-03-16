@@ -1,6 +1,24 @@
-/* General */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-align: center; }
+
+.song-title {
+  font-weight: 700;
+  font-size: 2.3111111111rem;
+  margin-top: 40px; }
+
+.song-author {
+  font-weight: 600;
+  font-size: 1.7333333333rem;
+  margin-top: 20px;
+  margin-bottom: 40px; }
+
+section {
+  font-size: 0.975rem;
+  margin-top: 20px; }
+
+@media (min-width: 500px) {
+  html {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=style.css.map */
